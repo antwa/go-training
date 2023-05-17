@@ -1,0 +1,1 @@
+this simple training task for individual training learning goLang ( just for me )
