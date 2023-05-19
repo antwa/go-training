@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 func main() {
 	// varible
 	var varInt int = 0
@@ -8,6 +12,13 @@ func main() {
 	var varBool bool = false
 
 	// declare multi variable
-	var a, b, c, d, e, f int = 1, 2, 3, 4, 5, 6
+	var a, b int = 1, 2
+
+	fmt.Print(varInt)
+	fmt.Print(varFloat)
+	fmt.Printf(varString)
+	fmt.Print(varBool)
+	fmt.Print(a)
+	fmt.Print(b)
 
 }
