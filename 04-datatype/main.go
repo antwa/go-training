@@ -4,18 +4,21 @@ import (
 	"fmt"
 )
 
-type Rectangle struct {
-	Width  float64
-	Height float64
-}
-
-
 func main() {
-	rect := Rectangle{Width: 5, Height: 10}
-	area := rect.Area()
-	fmt.Println("Area:", area)
-}
-// Method defined on the Rectangle struct
-func (r Rectangle) Area() float64 {
-	return r.Width * r.Height
+	// varible
+	var varInt int = 0
+	var varFloat float32 = 0
+	var varString string = "string"
+	var varBool bool = false
+
+	// declare multi variable
+	var a, b int = 1, 2
+
+	fmt.Print(varInt)
+	fmt.Print(varFloat)
+	fmt.Printf(varString)
+	fmt.Print(varBool)
+	fmt.Print(a)
+	fmt.Print(b)
+
 }
